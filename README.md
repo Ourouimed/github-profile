@@ -8,7 +8,7 @@ Simple Github Profile HTML CSS JS Using Github APi data
 git clone 'https://github.com/Ourouimed/github-profile.git'
 ```
 
-2- open main.js file an change `YOUR-GITHUB-USER-HERE` with your own github username (line 2)
+2- open main.js file and replace `ourouimed` by your own github username (line 2)
 
 3 - open the index.html file to see the results
 
