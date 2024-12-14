@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: "Poppins", serif;}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d1117;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+}
+.github-card {
+    width: 350px;
+    max-width: 90%;
+    border-radius: 10px;
+    border: 2px solid #212830;
+    padding: 10px;
+    height: max-content;
+    overflow: hidden;
+    position: sticky;
+    top: 20px;
+}
+.profile-img {
+    width: 180px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 8px;
+    border: 3px solid #212830;
+}
+
+.username {
+    color: #c5c3c3;
+}
+
+.subscribers-count {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 4px;
+    margin: 10px 0;
+}
+
+.subscribers-count li > span {
+    font-size: 22px;
+}
+
+.subscribers-count li > a {
+    text-decoration: none;
+    color: #c5c3c3;
+}
+
+.userlink {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    background: #212830;
+    margin-top: 4px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.error-msg p{
+    margin-top: 10px;
+    padding: 4px;
+    border-radius: 6px;
+    border: 1px solid red;
+    background: #e89c9c;
+    color: black;
+}
+.repo {
+    display: flex;
+    border: 2px solid #212830;
+    border-radius: 8px;
+    padding-top: 10px;
+    flex-direction: column;
+    overflow: hidden;
+}
+.repo-header {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.repos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 9px;
+}
+.repo-header > span {
+    padding: 4px 15px;
+    background: #212830;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.repo > p {
+    padding: 10px 15px;
+    color: #c5c3c3;
+    height: 100%;
+}
+
+.repo-footer {
+    padding: 10px 15px;
+    background: #212830
+}
+.repo-header > h3 a {
+    color: white;
+    text-decoration: none;
+    transition: .4s ease;
+}
+.repo-header > h3 a:hover {color: #006eff;}
+.repo-footer > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.repo-footer > ul li a {
+    color: white;
+    text-decoration: none;
+}
+.profile-links li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    margin-top: 5px;
+}
