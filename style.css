@@ -10,7 +10,6 @@ body{
     gap: 10px;
     color: white;
 }
-
 .container {
     padding: 20px;
     display: grid;
@@ -145,4 +144,17 @@ body{
     gap: 5px;
     font-size: 14px;
     margin-top: 5px;
+}
+@media (max-width : 540px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .github-card {
+        position: static;
+        width: 100%;
+        max-width: initial;
+    }
+    .repos-grid {
+        grid-template-columns: 1fr;
+    }
 }
